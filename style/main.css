@@ -122,6 +122,15 @@ body {
   height: auto;
 }
 
+.six img.profile-picture {
+  display: block;
+  max-width: 100%;
+  max-height: 60vh; /* Ganti ini jika perlu menyesuaikan ukuran */
+  margin: 0 auto;
+  height: auto; /* Membuat gambar tetap proporsional */
+  width: auto; /* Membuat gambar tetap proporsional */
+}
+
 .six .hat {
   position: absolute;
   width: 80px;
